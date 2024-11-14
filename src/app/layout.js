@@ -1,10 +1,10 @@
 import { Inter } from "next/font/google";
 import { Urbanist } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/header/header";
-import Footer from "@/components/footer/footer";
-import { NavigationContextProvider } from "@/context/navContext";
-import ToastContainer from "@/utils/toast";
+import Header from "@/components/layout/AICCEESHeader";
+import Footer from "@/components/layout/AICCEESFooter";
+import { NavigationContextProvider } from "../context/navContext";
+import ToastContainer from "../utils/toast";
 
 const inter = Inter({ subsets: ["latin"] });
 const urbanist = Urbanist({

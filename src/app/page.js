@@ -5,15 +5,15 @@ import HeroImg from "../../public/images/home/hero_img.png";
 import Rean from "../../public/images/home/rean.png";
 import SolarImg from "../../public/images/home/solar.png";
 import ChooseUs from "../../public/images/home/choose_us.png";
-import CustomButton from "@/components/button/button";
+import CustomButton from "../components/button/button";
 import { ArrowUpRight } from "lucide-react";
 import { CalendarDays } from "lucide-react";
 import Link from "next/link";
-import home_services from "@/data_models/home_services";
-import chooseUs from "@/data_models/why_choose_us";
+import home_services from "../data_models/home_services";
+import chooseUs from "../data_models/why_choose_us";
 import upcomingEventsImg from "../../public/images/home/regimg.png";
 import { motion } from "framer-motion";
-import SponsorsCarousel from "@/components/sponsors_carousel/carousel";
+import SponsorsCarousel from "../components/sponsors_carousel/carousel";
 import { FaLocationDot } from "react-icons/fa6";
 import microsoftLogo from "../../public/images/home/logos_microsoft-teams.png";
 import scientific from "../../public/images/home/Scientific_2.png";
@@ -246,11 +246,9 @@ export default function Home() {
             {chooseUs.map((item, index) => (
               <div
                 key={item.id}
-                className={`p-6 border-white ${
-                  index === 0 ? "border-r-0 lg:border-r border-b" : ""
-                }${index === 1 ? "border-l-0 lg:border-l border-b" : ""}${
-                  index === 2 ? "lg:border-t lg:border-r" : ""
-                }${index === 3 ? "lg:border-l border-t" : ""}`}
+                className={`p-6 border-white ${index === 0 ? "border-r-0 lg:border-r border-b" : ""
+                  }${index === 1 ? "border-l-0 lg:border-l border-b" : ""}${index === 2 ? "lg:border-t lg:border-r" : ""
+                  }${index === 3 ? "lg:border-l border-t" : ""}`}
               >
                 <div className="flex justify-center md:justify-start mb-1">
                   <Image src={item.image} alt="choose" />
@@ -356,7 +354,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="w-full md:w-[48%] mt-4 order-1 lg:order-2">
-            <div className="block md:hidden">
+              <div className="block md:hidden">
                 <Image
                   src={upcomingEventsImg}
                   alt="Upcoming event"
@@ -412,7 +410,7 @@ export default function Home() {
                     <Image src={scientific} alt="scientific" />
                   </div>
                   <p className="font-bold mb-2">
-                  Deadline for Abstract/Full Paper Submission 
+                    Deadline for Abstract/Full Paper Submission
                   </p>
                   <p className="text-sm">
                     Effective collaboration between academia and industry is

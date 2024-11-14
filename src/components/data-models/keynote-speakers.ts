@@ -1,9 +1,9 @@
-import profFoluwake from "../../public/images/keynote_speakers/Foluke_Ishola.jpg"
-import profSokona from "../../public/images/keynote_speakers/sokono.jpg"
-import emeka from "../../public/images/keynote_speakers/emeka.jpg"
-import robinah from "../../public/images/keynote_speakers/robinah.jpeg"
-import amina from "../../public/images/keynote_speakers/amina.jpeg"
-import Ioannis from "../../public/images/keynote_speakers/Ioannis.jpeg"
+import profFoluwake from "../../../public/images/keynote_speakers/Foluke_Ishola.jpg"
+import profSokona from "../../../public/images/keynote_speakers/sokono.jpg"
+import emeka from "../../../public/images/keynote_speakers/emeka.jpg"
+import robinah from "../../../public/images/keynote_speakers/robinah.jpeg"
+import amina from "../../../public/images/keynote_speakers/amina.jpeg"
+import Ioannis from "../../../public/images/keynote_speakers/Ioannis.jpeg"
 
 // export interface KeynoteSpeakerProps {
 //     name: string

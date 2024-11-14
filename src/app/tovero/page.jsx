@@ -1,15 +1,15 @@
 "use client";
 
+import Image from "next/image";
 import HeroImg from "../../../public/images/aicess/aicess_hero.png";
 import clockIcon from "../../../public/images/aicess/clock.png";
 import toveroImg from "../../../public/images/aicess/tovero_img.png";
-import Image from "next/image";
-import CustomButton from "@/components/button/button";
+import CustomButton from "../../components/button/button"; 
 import {
   ConferenceStatsTovero,
   ConferencesInfo,
 } from "@/components/conferences/conferences";
-import { tovero } from "@/data_models/conferences";
+import { tovero } from "@/components/data-models/conferences";
 import Sponsors from "@/components/conferences/sponsors";
 import DetailsItemized from "@/components/conferences/itemized";
 import Submissions from "@/components/conferences/submissions";
