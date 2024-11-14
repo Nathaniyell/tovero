@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import HeroImg from "@/public/images/aicess/aicess_hero.png";
-import clockIcon from "@/ic/images/aicess/clock.png";
-import toveroImg from "@/ic/images/aicess/tovero_img.png";
+import clockIcon from "../../../public/images/aicess/clock.png";
+import toveroImg from "../../../public/images/aicess/tovero_img.png";
 import CustomButton from "@/components/button/button";
 import {
   ConferenceStatsTovero,
