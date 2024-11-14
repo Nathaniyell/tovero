@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import CustomButton from "../button/button";
-import clockIcon from "../../../public/images/aicess/clock.png";
+import clockIcon from "@/public/images/aicess/clock.png";
 import { usePathname } from "next/navigation";
 import CountdownTimer from "../countdown/timer";
 import Link from "next/link";

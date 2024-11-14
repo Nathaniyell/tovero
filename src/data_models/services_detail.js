@@ -1,10 +1,10 @@
 import Link from "next/link";
-import img1 from "../../public/images/services/serv1.png";
-import img2 from "../../public/images/services/serv2.png";
-import img3 from "../../public/images/services/serv3.png";
-import img4 from "../../public/images/services/serv4.png";
-import img5 from "../../public/images/services/serv5.png";
-import img6 from "../../public/images/services/serv6.png";
+import img1 from "@/public/images/services/serv1.png";
+import img2 from "@/public/images/services/serv2.png";
+import img3 from "@/public/images/services/serv3.png";
+import img4 from "@/public/images/services/serv4.png";
+import img5 from "@/public/images/services/serv5.png";
+import img6 from "@/public/images/services/serv6.png";
 import { v4 as uuidv4 } from "uuid";
 
 const generateId = () => {

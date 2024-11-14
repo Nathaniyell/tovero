@@ -1,12 +1,12 @@
-import serv1 from "../../public/images/home/services1.png"
-import serv2 from "../../public/images/home/services2.png"
-import serv3 from "../../public/images/home/services3.png"
-import serv4 from "../../public/images/home/services4.png"
-import serv5 from "../../public/images/home/services5.png"
-import serv6 from "../../public/images/home/services6.png"
+import serv1 from "@/public/images/home/services1.png"
+import serv2 from "@/public/images/home/services2.png"
+import serv3 from "@/public/images/home/services3.png"
+import serv4 from "@/public/images/home/services4.png"
+import serv5 from "@/public/images/home/services5.png"
+import serv6 from "@/public/images/home/services6.png"
 
 const home_services = [
-    {   
+    {
         id: 1,
         image: serv1,
         title: "Energy Planning & Audit",

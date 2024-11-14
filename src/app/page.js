@@ -1,22 +1,22 @@
 "use client";
 
 import Image from "next/image";
-import HeroImg from "../../public/images/home/hero_img.png";
-import Rean from "../../public/images/home/rean.png";
-import SolarImg from "../../public/images/home/solar.png";
-import ChooseUs from "../../public/images/home/choose_us.png";
+import HeroImg from "@/public/images/home/hero_img.png";
+import Rean from "@/public/images/home/rean.png";
+import SolarImg from "@/public/images/home/solar.png";
+import ChooseUs from "@/public/images/home/choose_us.png";
 import CustomButton from "../components/button/button";
 import { ArrowUpRight } from "lucide-react";
 import { CalendarDays } from "lucide-react";
 import Link from "next/link";
 import home_services from "../data_models/home_services";
 import chooseUs from "../data_models/why_choose_us";
-import upcomingEventsImg from "../../public/images/home/regimg.png";
+import upcomingEventsImg from "@/public/images/home/regimg.png";
 import { motion } from "framer-motion";
 import SponsorsCarousel from "../components/sponsors_carousel/carousel";
 import { FaLocationDot } from "react-icons/fa6";
-import microsoftLogo from "../../public/images/home/logos_microsoft-teams.png";
-import scientific from "../../public/images/home/Scientific_2.png";
+import microsoftLogo from "@/public/images/home/logos_microsoft-teams.png";
+import scientific from "@/public/images/home/Scientific_2.png";
 
 export default function Home() {
   return (

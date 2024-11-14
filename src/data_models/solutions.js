@@ -1,11 +1,11 @@
-import pot from "../../public/images/solutions/pot.png";
-import oven from "../../public/images/solutions/oven.png";
-// import pot from "../../public/images/solutions/pot.png";
-import solarpa from "../../public/images/solutions/solarpa.png";
-import scientist from "../../public/images/solutions/scientist.png";
-import panel from "../../public/images/solutions/panel.png";
-import helmet from "../../public/images/solutions/helmet.png";
-import roof from "../../public/images/solutions/roof.png";
+import pot from "@/public/images/solutions/pot.png";
+import oven from "@/public/images/solutions/oven.png";
+// import pot from "@/public/images/solutions/pot.png";
+import solarpa from "@/public/images/solutions/solarpa.png";
+import scientist from "@/public/images/solutions/scientist.png";
+import panel from "@/public/images/solutions/panel.png";
+import helmet from "@/public/images/solutions/helmet.png";
+import roof from "@/public/images/solutions/roof.png";
 
 export const solutionsData = [
   {

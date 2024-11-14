@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     description: "Africa International Conference on Clean Energy & Energy Storage - Empowering Africa's Future Through Clean Energy Innovation and Sustainable Storage Solutions",
     images: [
       {
-        url: "../../public/images/herobg2.jpg",
+        url: "@/public/images/herobg2.jpg",
         width: 1200,
         height: 630,
         alt: "AICEES Conference",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     title: "Africa International Conference on Clean Energy & Energy Storage",
     description: "Africa International Conference on Clean Energy & Energy Storage - Empowering Africa's Future Through Clean Energy Innovation and Sustainable Storage Solutions",
     creator: "@ToveroEnergy", // Replace with actual Twitter handle
-    images: ["../../public/images/herobg2.jpg"],
+    images: ["@/public/images/herobg2.jpg"],
   },
   robots: {
     index: true,
@@ -109,26 +109,15 @@ const jsonLd = {
   // Add more structured data as needed
 };
 
-export default function RootLayout({
+export default function AICEESLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <link rel="manifest" href="/manifest.json" />
-      </head>
-      <body className={`${GeistSans.className} antialiased`}>
-        {children}
-        <ScrollToTop />
-      </body>
-    </html>
+    <div className={`${GeistSans.className} antialiased`}>
+      {children}
+      <ScrollToTop />
+    </div>
   );
 }

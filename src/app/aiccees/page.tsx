@@ -1,16 +1,16 @@
 "use client"
-import AICCEESHeader from '../../components/layout/AICCEESHeader'
+import AICCEESHeader from '@/components/layout/AICCEESHeader'
 import AICCEESFooter from "@/components/layout/AICCEESFooter"
-import { HeroSection } from '../../components/sections/HeroSection'
-import { SpeakersSection } from '../../components/sections/SpeakersSection'
-import AboutUs from '../../components/sections/AboutUs'
-import ConferenceThemes from '../../components/sections/ConferenceThemes'
-import PublishingPapers from '../../components/sections/PublishingPapers'
-import CookingDemonstration from '../../components/sections/CookingDemonstration'
-import PresentConference from '../../components/sections/PresentConference'
-import Partners from '../../components/sections/Partners'
-import Submissions from '../../components/sections/Submissions'
-import ConferenceStats from '../../components/sections/ConferenceStats'
+import { HeroSection } from '@/components/sections/HeroSection'
+import { SpeakersSection } from '@/components/sections/SpeakersSection'
+import AboutUs from '@/components/sections/AboutUs'
+import ConferenceThemes from '@/components/sections/ConferenceThemes'
+import PublishingPapers from '@/components/sections/PublishingPapers'
+import CookingDemonstration from '@/components/sections/CookingDemonstration'
+import PresentConference from '@/components/sections/PresentConference'
+import Partners from '@/components/sections/Partners'
+import Submissions from '@/components/sections/Submissions'
+import ConferenceStats from '@/components/sections/ConferenceStats'
 
 
 export default function ConferencePage() {

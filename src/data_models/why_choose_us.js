@@ -1,7 +1,7 @@
-import boxes from "../../public/images/home/boxes.png"
-import construction from "../../public/images/home/construction.png"
-import info from "../../public/images/home/info.png"
-import mdi from "../../public/images/home/mdi_partnership.png"
+import boxes from "@/public/images/home/boxes.png"
+import construction from "@/public/images/home/construction.png"
+import info from "@/public/images/home/info.png"
+import mdi from "@/public/images/home/mdi_partnership.png"
 
 const chooseUs = [
     {

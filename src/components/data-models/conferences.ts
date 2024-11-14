@@ -1,23 +1,23 @@
-import logo1 from "../../../public/images/aicess/logo1.png";
-import logo3 from "../../../public/images/aicess/logo3.png";
-import logo4 from "../../../public/images/aicess/logo4.png";
-import logo2 from "../../../public/images/aicess/logo2.png";
-import logo5 from "../../../public/images/aicess/logo5.png";
-import logo6 from "../../../public/images/aicess/logo6.png"
-import svg1 from "../../../public/images/aicess/svg1.png";
-import svg2 from "../../../public/images/aicess/svg2.png";
-import svg3 from "../../../public/images/aicess/svg3.png";
-import svg4 from "../../../public/images/aicess/svg4.png";
-import svg5 from "../../../public/images/aicess/svg5.png";
-import svg6 from "../../../public/images/aicess/svg6.png";
-import svg7 from "../../../public/images/aicess/svg7.png";
-import svg8 from "../../../public/images/aicess/svg8.png";
-import svg9 from "../../../public/images/aicess/svg9.png";
-import mecs from "../../../public/images/home/mecs.svg";
-import asteven from "../../../public/images/home/asteven.svg";
-import enerpro from "../../../public/images/home/enerpro.svg";
-import trans from "../../../public/images/home/trans.svg";
-import uniport from "../../../public/images/home/unipor.svg";
+import logo1 from "@/public/images/aicess/logo1.png";
+import logo3 from "@/public/images/aicess/logo3.png";
+import logo4 from "@/public/images/aicess/logo4.png";
+import logo2 from "@/public/images/aicess/logo2.png";
+import logo5 from "@/public/images/aicess/logo5.png";
+import logo6 from "@/public/images/aicess/logo6.png"
+import svg1 from "@/public/images/aicess/svg1.png";
+import svg2 from "@/public/images/aicess/svg2.png";
+import svg3 from "@/public/images/aicess/svg3.png";
+import svg4 from "@/public/images/aicess/svg4.png";
+import svg5 from "@/public/images/aicess/svg5.png";
+import svg6 from "@/public/images/aicess/svg6.png";
+import svg7 from "@/public/images/aicess/svg7.png";
+import svg8 from "@/public/images/aicess/svg8.png";
+import svg9 from "@/public/images/aicess/svg9.png";
+import mecs from "@/public/images/home/mecs.svg";
+import asteven from "@/public/images/home/asteven.svg";
+import enerpro from "@/public/images/home/enerpro.svg";
+import trans from "@/public/images/home/trans.svg";
+import uniport from "@/public/images/home/unipor.svg";
 
 
 export const aicess = {
@@ -32,41 +32,41 @@ export const aicess = {
   ],
   aicessStats: [
     {
-        id: 1,
-        logo: logo1,
-        number: "670",
-        description: "Participant",
-      },
-      {
-        id: 2,
-        logo: logo2,
-        number: "39",
-        description: "Abstract Submissions",
-      },
-      {
-        id: 3,
-        logo: logo3,
-        number: "21",
-        description: "Full Paper Accepted",
-      },
-      {
-        id: 4,
-        logo: logo4,
-        number: "17",
-        description: "Paper Presentation",
-      },
-      {
-        id: 5,
-        logo: logo5,
-        number: "4",
-        description: "Panel Sessions",
-      },
-      {
-        id: 6,
-        logo: logo6,
-        number: "2",
-        description: "Keynote Speakers",
-      },
+      id: 1,
+      logo: logo1,
+      number: "670",
+      description: "Participant",
+    },
+    {
+      id: 2,
+      logo: logo2,
+      number: "39",
+      description: "Abstract Submissions",
+    },
+    {
+      id: 3,
+      logo: logo3,
+      number: "21",
+      description: "Full Paper Accepted",
+    },
+    {
+      id: 4,
+      logo: logo4,
+      number: "17",
+      description: "Paper Presentation",
+    },
+    {
+      id: 5,
+      logo: logo5,
+      number: "4",
+      description: "Panel Sessions",
+    },
+    {
+      id: 6,
+      logo: logo6,
+      number: "2",
+      description: "Keynote Speakers",
+    },
   ]
 };
 
@@ -97,7 +97,7 @@ export const deets = [
   {
     id: 4,
     image: svg4,
-    text: "Renewable Energy Systems", 
+    text: "Renewable Energy Systems",
     color: "border-green-600",
     textColor: "text-red-700"
   },
@@ -111,7 +111,7 @@ export const deets = [
   {
     id: 6,
     image: svg6,
-    text: "Clean Cooking",  
+    text: "Clean Cooking",
     color: "border-green-600",
     textColor: "text-red-700"
   },
@@ -142,7 +142,7 @@ export const deets = [
     text: "Energy Efficiency & Smart Systems",
     color: "border-green-600",
     textColor: "text-red-700"
-    },
+  },
 ];
 
 

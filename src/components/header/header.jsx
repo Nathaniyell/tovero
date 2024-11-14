@@ -7,7 +7,7 @@ import CustomButton from "../button/button";
 import Link from "next/link";
 import { useNavigationContext } from "../../context/navContext";
 import { useRouter, usePathname } from "next/navigation";
-import Logo from "../../../public/logo.png";
+import Logo from "@/public/logo.png";
 import { Menu } from "lucide-react";
 import MobileNavBar from "./mobilenav";
 import { useWindowWidth } from "../../utils/responsiveness";
@@ -67,9 +67,8 @@ function Header() {
 
               {
                 <div
-                  className={`${
-                    showServDropdown ? "block" : "hidden"
-                  } bg-white shadow-md pt-6 pb-10 px-6 absolute top-12 rounded-t-2xl`}
+                  className={`${showServDropdown ? "block" : "hidden"
+                    } bg-white shadow-md pt-6 pb-10 px-6 absolute top-12 rounded-t-2xl`}
                 >
                   <div
                     onClick={() => {
@@ -158,9 +157,8 @@ function Header() {
 
               {
                 <div
-                  className={`${
-                    showConDropdown ? "block" : "hidden"
-                  } bg-white shadow-md pt-6 pb-12 px-6 absolute top-12 rounded-t-2xl `}
+                  className={`${showConDropdown ? "block" : "hidden"
+                    } bg-white shadow-md pt-6 pb-12 px-6 absolute top-12 rounded-t-2xl `}
                 >
                   <Link href="/aiccees">
                     <div className="w-fit group h-16">

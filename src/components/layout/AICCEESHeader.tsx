@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
-import logo from '../../../public/images/aicess/aicess_aicess.png'
+import logo from '@/public/images/aicess/aicess_aicess.png'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -15,13 +15,13 @@ export default function Header() {
     // Remove the # from the href
     const targetId = href.replace('#', '')
     const element = document.getElementById(targetId)
-    
+
     if (element) {
       element.scrollIntoView({
         behavior: 'smooth',
         block: 'start',
       })
-      
+
       // Update URL without causing a page reload
       window.history.pushState({}, '', href)
     }
@@ -70,9 +70,8 @@ export default function Header() {
         </button>
 
         {/* Mobile Navigation */}
-        <div className={`fixed inset-0 top-20 z-[50] w-screen h-[calc(100vh-5rem)] bg-green-800 transition-all duration-300 ease-in-out ${
-          isMenuOpen ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-full'
-        } md:hidden`}>
+        <div className={`fixed inset-0 top-20 z-[50] w-screen h-[calc(100vh-5rem)] bg-green-800 transition-all duration-300 ease-in-out ${isMenuOpen ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-full'
+          } md:hidden`}>
           <div className="flex flex-col items-center justify-center h-full space-y-8">
             {navLinks.map((link) => (
               <Link

@@ -1,10 +1,10 @@
 "use client";
 
 import IdenticalHero from "@/components/hero/hero";
-import heroImg from "../../../public/images/publishers/publishers_hero.png";
+import heroImg from "@/public/images/publishers/publishers_hero.png";
 import { solutionsData } from "@/data_models/solutions";
 import Image from "next/image";
-import CustomButton from "../../components/button/button";
+import CustomButton from "@/components/button/button";
 import { motion } from "framer-motion";
 
 function Solutions() {

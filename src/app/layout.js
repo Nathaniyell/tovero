@@ -1,8 +1,7 @@
 import { Inter } from "next/font/google";
 import { Urbanist } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/layout/AICCEESHeader";
-import Footer from "@/components/layout/AICCEESFooter";
+import MainLayout from "@/components/MainLayout";
 import { NavigationContextProvider } from "../context/navContext";
 import ToastContainer from "../utils/toast";
 
@@ -24,11 +23,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={urbanist.className}>
         <NavigationContextProvider>
-          <Header />
-          {children}
-          <Footer />
+          <MainLayout>
+            {children}
+          </MainLayout>
+          <ToastContainer />
         </NavigationContextProvider>
-        <ToastContainer />
       </body>
     </html>
   );
