@@ -1,9 +1,21 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export",
-    images: { unoptimized: true },
-    // useFileSystemPublicRoutes: false,
-    useFileSystemPublicRoutes: true,
-};
-
-export default nextConfig;
+    images: {
+      unoptimized: true,
+      remotePatterns: [
+        {
+          protocol: "https",
+          hostname: "**",
+        },
+      ],
+    },
+    webpack: (config) => {
+      config.resolve.alias = {
+        ...config.resolve.alias,
+        "@public": "./public",
+      };
+      return config;
+    },
+  };
+  
+  export default nextConfig;
