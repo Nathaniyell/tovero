@@ -6,8 +6,8 @@
       "esnext"
     ],
     "paths": {
-      "@/components/*": ["src/components/*"],
-      "@/public/*": ["public/*"]
+      "@/*": ["./src/*"],
+      "@/public/*": ["./public/*"]
     },
     "allowJs": true,
     "skipLibCheck": true,

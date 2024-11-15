@@ -9,7 +9,7 @@ import {
   ConferenceStatsTovero,
   ConferencesInfo,
 } from "@/components/conferences/conferences";
-import { tovero } from "@/components/data-models/conferences";
+import { tovero } from "@/data_models/conferences";
 import Sponsors from "@/components/conferences/sponsors";
 import DetailsItemized from "@/components/conferences/itemized";
 import Submissions from "@/components/conferences/submissions";
