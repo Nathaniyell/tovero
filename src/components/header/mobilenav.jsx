@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ChevronDown } from "lucide-react";
-import { useNavigationContext } from "@/context/navContext";
+import { useNavigationContext } from "../../context/navContext";
 import { useEffect, useRef, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import CustomButton from "../button/button";
@@ -38,7 +38,7 @@ function MobileNavBar({ closeNav }) {
 
   return (
     <div ref={navRef} className="text-primarytext pb-4 mt-4">
-      
+
       <div className="mb-8">
         <div
           onClick={() => {

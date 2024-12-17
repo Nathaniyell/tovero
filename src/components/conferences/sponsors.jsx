@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import Scientific from "../../../public/images/aicess/Scientific.png";
-import redarrow from "../../../public/images/aicess/redarrow.png";
+import Scientific from "@/public/images/aicess/Scientific.png";
+import redarrow from "@/public/images/aicess/redarrow.png";
 import Link from "next/link";
 import Conference_Carousel from "./conference_carousel";
 import { motion } from "framer-motion";
@@ -27,15 +27,15 @@ function Sponsors() {
   ];
   return (
     <motion.div
-    initial={{ opacity: 0, y: 50 }}
-    whileInView={{ opacity: 1, y: 0 }}
-    transition={{ duration: 0.6, delay: 0.4 }}
-    viewport={{ once: false }}>
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, delay: 0.4 }}
+      viewport={{ once: false }}>
       <div
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: false }} className="w-full md:w-[95%] lg:w-[80%] mx-auto hidden md:flex justify-between gap-4 md:gap-6 overflow-x-auto">
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.4 }}
+        viewport={{ once: false }} className="w-full md:w-[95%] lg:w-[80%] mx-auto hidden md:flex justify-between gap-4 md:gap-6 overflow-x-auto">
         <div className="w-[1000px] md:w-[50%] bg-cardbg hidden md:flex justify-between items-center px-2 md:px-8 py-6">
           <h1 className="font-aicess text-[#651E00] text-2xl">Publisher</h1>
 

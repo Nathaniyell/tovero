@@ -1,8 +1,8 @@
 "use client"
 
-import IdenticalHero from "@/components/hero/hero";
-import heroImg from "../../../public/telephone.png";
-import gis from "../../../public/gis.png";
+  import IdenticalHero from "@/components/hero/hero";
+  import heroImg from "@/public/telephone.png";
+import gis from "@/public/gis.png";
 import { FaPhoneAlt } from "react-icons/fa";
 import { TbMailFilled } from "react-icons/tb";
 import Image from "next/image";

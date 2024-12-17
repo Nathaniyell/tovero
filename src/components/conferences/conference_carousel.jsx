@@ -1,7 +1,7 @@
-import { useState } from "react";
+
 import Image from "next/image";
-import Scientific from "../../../public/images/aicess/Scientific.png";
-import redarrow from "../../../public/images/aicess/redarrow.png";
+import Scientific from "@/public/images/aicess/Scientific.png";
+import redarrow from "@/public/images/aicess/redarrow.png";
 import Link from "next/link";
 import { Pagination, Scrollbar, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";

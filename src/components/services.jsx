@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import heroImg from "../../public/images/services/hero_services_img.png";
+import heroImg from "@/public/images/services/hero_services_img.png";
 import { serviceHeaders, serviceInfo } from "@/data_models/services_detail";
 import { motion } from "framer-motion";
 
@@ -73,11 +73,10 @@ function Services() {
               <div
                 key={index}
                 onClick={() => isActive(index)}
-                className={`bxshadow w-full h-12 flex p-2 justify-center items-center rounded-md cursor-pointer ${
-                  activeIndex === index
+                className={`bxshadow w-full h-12 flex p-2 justify-center items-center rounded-md cursor-pointer ${activeIndex === index
                     ? "border-b-red-500 border-4 text-ltgreentext"
                     : "text-primarytext"
-                }`}
+                  }`}
               >
                 <p className="text-[12px] font-bold text-center text-wrap">
                   {item}
@@ -91,11 +90,10 @@ function Services() {
               <div
                 key={index}
                 onClick={() => isActive(index)}
-                className={`bxshadow w-full h-16 md:h-12 flex p-2 justify-center items-center rounded-md cursor-pointer ${
-                  activeIndex === index
+                className={`bxshadow w-full h-16 md:h-12 flex p-2 justify-center items-center rounded-md cursor-pointer ${activeIndex === index
                     ? "border-b-red-500 border-4 text-ltgreentext"
                     : "text-primarytext"
-                }`}
+                  }`}
               >
                 <p className="text-[12px] font-bold text-center w-[200px] lg:w-auto">
                   {item}
@@ -116,11 +114,9 @@ function Services() {
                 <SwiperSlide>
                   <div className="flex flex-col lg:flex-row justify-between">
                     <div
-                      className={`w-full lg:w-[40%] mb-4 lg:mb-0${
-                        activeIndex === 1 ? "order-2" : ""
-                      }${activeIndex === 3 ? "order-2" : ""}${
-                        activeIndex === 5 ? "order-2" : ""
-                      }`}
+                      className={`w-full lg:w-[40%] mb-4 lg:mb-0${activeIndex === 1 ? "order-2" : ""
+                        }${activeIndex === 3 ? "order-2" : ""}${activeIndex === 5 ? "order-2" : ""
+                        }`}
                     >
                       <Image
                         src={item.image}

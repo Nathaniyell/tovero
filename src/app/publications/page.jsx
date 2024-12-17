@@ -1,7 +1,7 @@
 "use client";
 
 import IdenticalHero from "@/components/hero/hero";
-import heroImg from "../../../public/images/publishers/publishers_hero.png";
+import heroImg from "@/public/images/publishers/publishers_hero.png";
 import { publisherInfo, publisherMore } from "@/data_models/publishers";
 import Image from "next/image";
 import Link from "next/link";

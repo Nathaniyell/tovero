@@ -1,5 +1,5 @@
 import Image from "next/image";
-import hdrElipses from "../../../public/images/home/ellipse.png";
+import hdrElipses from "@/public/images/home/ellipse.png";
 import {
   IoLogoLinkedin,
   IoLogoTwitter,
@@ -8,7 +8,7 @@ import {
   IoLogoInstagram,
 } from "react-icons/io";
 import Link from "next/link";
-import FooterLogo from "../../../public/logo_footer.png";
+import FooterLogo from "@/public/logo_footer.png";
 
 function Footer() {
   return (
@@ -103,7 +103,7 @@ function Footer() {
           {/* <Link href="/tovero">
             <p className="mb-2">TSET</p>
           </Link> */}
-          
+
         </div>
 
         <div className="flex flex-col items-center md:items-start">
@@ -165,7 +165,7 @@ function Footer() {
         </div>
       </div>
       <br />
-      
+
       <hr />
 
       <div className="w-full flex flex-col lg:flex-row justify-between py-6">

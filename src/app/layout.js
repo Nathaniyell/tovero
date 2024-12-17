@@ -1,10 +1,9 @@
 import { Inter } from "next/font/google";
 import { Urbanist } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/header/header";
-import Footer from "@/components/footer/footer";
-import { NavigationContextProvider } from "@/context/navContext";
-import ToastContainer from "@/utils/toast";
+import MainLayout from "@/components/MainLayout";
+import { NavigationContextProvider } from "../context/navContext";
+import ToastContainer from "../utils/toast";
 
 const inter = Inter({ subsets: ["latin"] });
 const urbanist = Urbanist({
@@ -24,11 +23,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={urbanist.className}>
         <NavigationContextProvider>
-          <Header />
-          {children}
-          <Footer />
+          <MainLayout>
+            {children}
+          </MainLayout>
+          <ToastContainer />
         </NavigationContextProvider>
-        <ToastContainer />
       </body>
     </html>
   );

@@ -1,15 +1,15 @@
 "use client";
 
 import Image from "next/image";
-import svg1 from "../../../public/images/aicess/svg1.png";
-import svg2 from "../../../public/images/aicess/svg2.png";
-import svg3 from "../../../public/images/aicess/svg3.png";
-import svg4 from "../../../public/images/aicess/svg4.png";
-import svg5 from "../../../public/images/aicess/svg5.png";
-import svg6 from "../../../public/images/aicess/svg6.png";
-import svg7 from "../../../public/images/aicess/svg7.png";
-import svg8 from "../../../public/images/aicess/svg8.png";
-import svg9 from "../../../public/images/aicess/svg9.png";
+import svg1 from "@/public/images/aicess/svg1.png";
+import svg2 from "@/public/images/aicess/svg2.png";
+import svg3 from "@/public/images/aicess/svg3.png";
+import svg4 from "@/public/images/aicess/svg4.png";
+import svg5 from "@/public/images/aicess/svg5.png";
+import svg6 from "@/public/images/aicess/svg6.png";
+import svg7 from "@/public/images/aicess/svg7.png";
+import svg8 from "@/public/images/aicess/svg8.png";
+import svg9 from "@/public/images/aicess/svg9.png";
 import { motion } from "framer-motion";
 
 const deets = [

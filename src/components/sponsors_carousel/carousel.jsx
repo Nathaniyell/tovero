@@ -1,8 +1,8 @@
-import mecs from "../../../public/images/home/mecs.svg";
-import asteven from "../../../public/images/home/asteven.svg";
-import enerpro from "../../../public/images/home/enerpro.svg";
-import trans from "../../../public/images/home/trans.svg";
-import uniport from "../../../public/images/home/unipor.svg";
+import mecs from "@/public/images/home/mecs.svg";
+import asteven from "@/public/images/home/asteven.svg";
+import enerpro from "@/public/images/home/enerpro.svg";
+import trans from "@/public/images/home/trans.svg";
+import uniport from "@/public/images/home/unipor.svg";
 
 // //// SWIPER IMPORTS /////// //
 import { Pagination, Scrollbar, Navigation, Autoplay } from "swiper/modules";
@@ -51,7 +51,7 @@ function SponsorsCarousel() {
           spaceBetween: 50,
         },
       }}
-      
+
     >
       {sponsors_list.map((item) => (
         <SwiperSlide
