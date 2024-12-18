@@ -11,6 +11,7 @@ import PresentConference from '@/components/sections/PresentConference'
 import Partners from '@/components/sections/Partners'
 import Submissions from '@/components/sections/Submissions'
 import ConferenceStats from '@/components/sections/ConferenceStats'
+import ConferenceGuide from '@/components/conference-guide/conference-guide'
 
 
 export default function ConferencePage() {
@@ -20,6 +21,7 @@ export default function ConferencePage() {
       <main className="flex-1">
         <HeroSection />
         <AboutUs />
+        <ConferenceGuide />
         <ConferenceStats />
         <ConferenceThemes />
         <SpeakersSection />
