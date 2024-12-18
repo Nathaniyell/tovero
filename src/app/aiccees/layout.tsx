@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import { ScrollToTop } from "@/components/ScrollToTop"
+import AICCEESHeader from "@/components/layout/AICCEESHeader";
+import AICCEESFooter from "@/components/layout/AICCEESFooter"
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://toveroenergy.com'), // Replace with your actual domain
@@ -116,8 +118,10 @@ export default function AICEESLayout({
 }>) {
   return (
     <div className={`${GeistSans.className} antialiased`}>
+       <AICCEESHeader />
       {children}
       <ScrollToTop />
+       <AICCEESFooter />
     </div>
   );
 }

@@ -17,7 +17,7 @@ import ConferenceGuide from '@/components/conference-guide/conference-guide'
 export default function ConferencePage() {
   return (
     <div className="flex flex-col min-h-screen bg-white text-gray-900">
-      <AICCEESHeader />
+      {/* <AICCEESHeader /> */}
       <main className="flex-1">
         <HeroSection />
         <AboutUs />
@@ -31,7 +31,7 @@ export default function ConferencePage() {
         <PresentConference />
         <Partners />
       </main>
-      <AICCEESFooter />
+      {/* <AICCEESFooter /> */}
     </div>
   )
 }
