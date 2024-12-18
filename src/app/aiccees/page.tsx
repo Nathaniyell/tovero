@@ -21,9 +21,9 @@ export default function ConferencePage() {
       <main className="flex-1">
         <HeroSection />
         <AboutUs />
+        <ConferenceThemes />
         <ConferenceGuide />
         <ConferenceStats />
-        <ConferenceThemes />
         <SpeakersSection />
         <PublishingPapers />
         <Submissions />
