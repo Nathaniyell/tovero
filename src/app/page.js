@@ -136,7 +136,7 @@ export default function Home() {
                   </p>
 
                   <p className="ptag text-justify">
-                    Empowering Futures Through Sustainable Energy Solutions
+                    Empowering futures through innovative sustainable energy solutions
                   </p>
                 </div>
               </div>
@@ -151,7 +151,7 @@ export default function Home() {
                   To empower individuals, communities, and industries by
                   delivering tailored and innovative sustainable energy
                   solutions that drive positive environmental impact, economic
-                  growth, and social progress
+                  growth, and social equity
                 </p>
               </div>
               <div className="bg-cardbg text-center px-6 py-4">
@@ -160,7 +160,7 @@ export default function Home() {
                 </p>
 
                 <p className="ptag ">
-                  Empowering Futures Through Sustainable Energy Solutions
+                Empowering futures through innovative sustainable energy solutions
                 </p>
               </div>
             </div>
