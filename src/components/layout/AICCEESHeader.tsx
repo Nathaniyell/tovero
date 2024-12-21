@@ -8,7 +8,11 @@ import logo from '@/public/images/aicess/aicess_aicess.png'
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
+ 
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    // Only handle scroll for anchor links (those starting with #)
+    if (!href.startsWith('#')) return
+
     e.preventDefault()
     setIsMenuOpen(false) // Close mobile menu
 
@@ -26,7 +30,6 @@ export default function Header() {
       window.history.pushState({}, '', href)
     }
   }
-
   const navLinks = [
     { href: '#about', label: 'About' },
     { href: '#speakers', label: 'Speakers' },
