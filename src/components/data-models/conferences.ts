@@ -32,41 +32,41 @@ export const aicess = {
   ],
   aicessStats: [
     {
-      id: 1,
-      logo: logo1,
-      number: "670",
-      description: "Participant",
-    },
-    {
-      id: 2,
-      logo: logo2,
-      number: "39",
-      description: "Abstract Submissions",
-    },
-    {
-      id: 3,
-      logo: logo3,
-      number: "21",
-      description: "Full Paper Accepted",
-    },
-    {
-      id: 4,
-      logo: logo4,
-      number: "17",
-      description: "Paper Presentation",
-    },
-    {
-      id: 5,
-      logo: logo5,
-      number: "4",
-      description: "Panel Sessions",
-    },
-    {
-      id: 6,
-      logo: logo6,
-      number: "2",
-      description: "Keynote Speakers",
-    },
+        id: 1,
+        logo: logo1,
+        number: "1,173",
+        description: "Participant",
+      },
+      {
+        id: 2,
+        logo: logo2,
+        number: "86",
+        description: "Abstract Submissions",
+      },
+      {
+        id: 3,
+        logo: logo3,
+        number: "51",
+        description: "Full Paper Accepted",
+      },
+      {
+        id: 4,
+        logo: logo4,
+        number: "45",
+        description: "Paper Presentation",
+      },
+      {
+        id: 5,
+        logo: logo5,
+        number: "5",
+        description: "Panel Sessions",
+      },
+      {
+        id: 6,
+        logo: logo6,
+        number: "7",
+        description: "Keynote Speakers",
+      },
   ]
 };
 
