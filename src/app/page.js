@@ -122,10 +122,10 @@ return (
                 </p>
 
                 <p className="ptag text-justify">
-                  To empower individuals, communities, and industries by
-                  delivering tailored and innovative sustainable energy
-                  solutions that drive positive environmental impact, economic
-                  growth, and social progress
+                To empower individuals, communities, and industries by
+                delivering tailored and innovative sustainable energy
+                solutions that drive positive environmental impact, economic
+                growth, and social equity
                 </p>
               </div>
             </div>
