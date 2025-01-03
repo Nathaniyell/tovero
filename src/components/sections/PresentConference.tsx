@@ -78,10 +78,10 @@ export default function PresentConference() {
     },
     {
       id: 3,
-      header: "BOOK OF ABSTRACTS",
-      link: "https://drive.google.com/uc?export=download&id=1lE93VeauJnyykfAe1ogiYFDLHE_V4KDD",
+      header: "CONFERENCE REPORT",
+      link: "https://drive.google.com/file/d/1cdAL_cEv0AvaAfavw9rtJZ3pOIwt_zVk/view?usp=sharing",
       icon: FileText,
-      description: "Download conference abstracts",
+      description: "Download conference report",
       color: "text-white",
       bgColor: "bg-green-600",
       iconBgColor: "bg-white",
