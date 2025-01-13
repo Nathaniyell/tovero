@@ -160,7 +160,7 @@ function Header() {
                   className={`${showConDropdown ? "block" : "hidden"
                     } bg-white shadow-md pt-6 pb-12 px-6 absolute top-12 rounded-t-2xl `}
                 >
-                  <Link href="/aiccees">
+                  <Link href="https://aiccees.com" target="_blank">
                     <div className="w-fit group h-16">
                       Africa International Conference on Clean Energy and Energy
                       Storage (AICCEES){" "}

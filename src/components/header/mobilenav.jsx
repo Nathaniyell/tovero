@@ -137,7 +137,7 @@ function MobileNavBar({ closeNav }) {
             whileTap={{ backgroundColor: "#F1F2F3" }}
             className="mb-4"
           >
-            <Link href="/aiccees">
+            <Link href="https://aiccees.com" target="_blank">
               <p onClick={closeNav}>
                 Africa International Conference on Clean Energy and Energy
                 Storage (AICCEES){" "}
