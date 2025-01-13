@@ -46,7 +46,7 @@ return (
           clean and sustainable.
         </p>
         <br />
-        <Link href="/aiccees">
+        <Link href="https://aiccees.com" target="_blank">
           <div className="flex justify-center md:justify-start">
             <CustomButton variant="primary">SEE EVENTS</CustomButton>
           </div>
@@ -318,7 +318,7 @@ return (
                 </p>
                 <div className="flex items-center gap-2 text-sm">
                   {" "}
-                  <CalendarDays /> 26th & 27th September 2024
+                  <CalendarDays /> 25th & 26th September 2025
                 </div>
               </div>
             </div>
