@@ -97,7 +97,7 @@ function Footer() {
           <Link href="/publications">
             <p className="mb-2">Publications</p>
           </Link>
-          <Link href="/aiccees">
+          <Link href="https://aiccees.com" target="_blank">
             <p className="mb-2">AICCEES</p>
           </Link>
           {/* <Link href="/tovero">
