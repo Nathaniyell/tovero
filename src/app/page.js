@@ -325,7 +325,7 @@ return (
             <div className="py-3">
               <p className="text-ltgreentext font-bold">
                 Africa International Conference on Clean Energy & Energy
-                Storage (AICCEES), 2024
+                Storage (AICCEES), 2025
               </p>
               <p>
                 In order to achieve the Sustainable Development Goals in
@@ -347,11 +347,13 @@ return (
                 </div>
               </div>
             </div>
-            <Link href="https://forms.office.com/r/3Hxp8z38uA">
+            <Link href="https://aiccees.com" target="_blank">
               <CustomButton variant="primary" className="w-full md:w-fit mt-4 md:mt-0">
-                Register
+                Visit Website
               </CustomButton>
             </Link>
+   
+           
           </div>
           <div className="w-full md:w-[48%] mt-4 order-1 lg:order-2">
             <div className="block md:hidden">
@@ -367,14 +369,14 @@ return (
                 </p>
                 <div className="flex items-center gap-2 text-sm">
                   {" "}
-                  <CalendarDays /> 26th & 27th September 2024
+                  <CalendarDays /> 25th & 26th September 2025
                 </div>
               </div>
             </div>
             <div className="flex justify-between pt-6 md:pt-0 pb-6 border-b border-gray-400">
               <div className="w-[30%] md:w-[20%] bg-prigreentext flex items-center justify-center rounded-md">
                 <p className="text-white font-bold text-center">
-                  FEBRUARY 1,2024
+                  JANUARY 1,2025
                 </p>
               </div>
               <div className="w-[65%] md:w-[70%]">
@@ -401,7 +403,7 @@ return (
             <div className="flex justify-between py-6 border-b border-gray-400">
               <div className="w-[30%] md:w-[20%] bg-prigreentext flex items-center justify-center rounded-md">
                 <p className="text-white font-bold text-center">
-                  AUGUST 31,2024
+                  MAY 31,2025
                 </p>
               </div>
               <div className="w-[65%] md:w-[70%]">
@@ -428,9 +430,9 @@ return (
             <div className="flex justify-between py-6">
               <div className="w-[30%] md:w-[20%] bg-prigreentext flex items-center justify-center rounded-md">
                 <p className="text-white font-bold text-center">
-                  SEPTEMBER <br /> 26 & 27,
+                  SEPTEMBER <br /> 25 & 26,
                   <br />
-                  2024
+                  2025
                 </p>
               </div>
               <div className="w-[65%] md:w-[70%]">
