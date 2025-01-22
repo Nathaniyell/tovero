@@ -17,6 +17,10 @@ import SponsorsCarousel from "../components/sponsors_carousel/carousel";
 import { FaLocationDot } from "react-icons/fa6";
 import microsoftLogo from "@/public/images/home/logos_microsoft-teams.png";
 import scientific from "@/public/images/home/Scientific_2.png";
+import sparks1 from "@/public/images/home/54sp.png";
+import sparks2 from "@/public/images/home/54sp1.png";
+import sparks3 from "@/public/images/home/54sp2.png";
+import sparks4 from "@/public/images/home/spa.png";
 
 export default function Home() {
   return (
@@ -456,12 +460,29 @@ export default function Home() {
           <section className="w-full mt-8 bg-gradient-to-br from-white to-cardbg rounded-2xl p-8">
             <div className="max-w-7xl mx-auto">
               <div className="flex flex-col md:flex-row items-center gap-6 mb-8">
+
                 <div className="flex-1">
                   <h2 className="text-3xl font-header text-prigreentext mb-4">54 Sparks: Africa&apos;s Clean Cooking Transition</h2>
                   <p className="text-gray-700 leading-relaxed">
                     Join our bi-weekly webinar series exploring the evolving landscape of clean cooking technologies across Africa.
                     We aim to promote understanding, showcase innovations, and foster collaboration among stakeholders in clean cooking initiatives.
                   </p>
+                  <br />
+                  <section className="grid grid-cols-2 gap-4"> 
+                      <div className="rounded-lg">
+                        <Image src='/54sp.png' width={100} height={100} alt="benefit 1" />
+                      </div>
+                      <div className="rounded-lg">
+                        <Image src='/54sp1.png' width={100} height={100} alt="benefit 1" />
+                      </div>
+                      <div className="rounded-lg">
+                        <Image src='/54sp2.png' width={100} height={100} alt="benefit 1" />
+                      </div>
+                      <div className="rounded-lg">
+                        <Image src='/spa.png' width={100} height={100} alt="benefit 1" />
+                      </div>
+
+                    </section>
                 </div>
                 <div className="flex-shrink-0">
                   <Link href="https://bit.ly/cookcleanadvocate" target="_blank">
@@ -517,6 +538,7 @@ export default function Home() {
                 <div className="space-y-6">
                   <div className="bg-green-900 text-white rounded-xl p-8 shadow-lg">
                     <h3 className="font-header text-2xl mb-6">Benefits of Joining</h3>
+                    
                     <div className="space-y-6">
                       {[
                         {
