@@ -465,10 +465,11 @@ export default function Home() {
                 </div>
                 <div className="flex-shrink-0">
                   <Link href="https://bit.ly/cookcleanadvocate" target="_blank">
-                    <CustomButton variant="primary" className="whitespace-nowrap px-8 py-4">
+                    <CustomButton variant="secondary" className="whitespace-nowrap">
                       Join Next Webinar
                     </CustomButton>
                   </Link>
+                  
                 </div>
               </div>
 
@@ -514,7 +515,7 @@ export default function Home() {
                 </div>
 
                 <div className="space-y-6">
-                  <div className="bg-redbg text-white rounded-xl p-8 shadow-lg">
+                  <div className="bg-green-900 text-white rounded-xl p-8 shadow-lg">
                     <h3 className="font-header text-2xl mb-6">Benefits of Joining</h3>
                     <div className="space-y-6">
                       {[
@@ -548,7 +549,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="bg-[#E8F5E9] rounded-xl p-8">
+                  {/* <div className="bg-[#E8F5E9] rounded-xl p-8">
                     <h3 className="font-header text-xl text-prigreentext mb-4">Ready to Make an Impact?</h3>
                     <p className="text-gray-700 mb-6">Join our community of advocates working towards a cleaner, more sustainable Africa.</p>
                     <Link href="https://bit.ly/cookcleanadvocate" target="_blank" className="block">
@@ -556,7 +557,7 @@ export default function Home() {
                         Register as an Advocate
                       </CustomButton>
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
