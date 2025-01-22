@@ -308,11 +308,12 @@ export default function Home() {
           </div>
           <section className="w-full px-2 md:px-0 my-4 py-6">
             <div>
-              <div className="flex flex-col md:flex-row items-center gap-2 md:gap-6 mb-4">
+              <div className="flex flex-col md:flex-row items-center md:items-start gap-2 md:gap-6 mb-4">
 
                 <div className="flex-1">
+                  
                   <h2 className="text-3xl font-header text-prigreentext mb-4">54 Sparks: Africa&apos;s Clean Cooking Transition</h2>
-                  <p className="text-gray-700 leading-relaxed text-justify">
+                  <p className="text-gray-700 leading-relaxed text-justify md:w-3/4">
                     Join our bi-weekly webinar series exploring the evolving landscape of clean cooking technologies across Africa.
                     We aim to promote understanding, showcase innovations, and foster collaboration among stakeholders in clean cooking initiatives.
                   </p>
