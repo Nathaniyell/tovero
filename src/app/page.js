@@ -17,10 +17,10 @@ import SponsorsCarousel from "../components/sponsors_carousel/carousel";
 import { FaLocationDot } from "react-icons/fa6";
 import microsoftLogo from "@/public/images/home/logos_microsoft-teams.png";
 import scientific from "@/public/images/home/Scientific_2.png";
-import sparks1 from "@/public/images/home/54sp.png";
-import sparks2 from "@/public/images/home/54sp1.png";
-import sparks3 from "@/public/images/home/54sp2.png";
-import sparks4 from "@/public/images/home/spa.png";
+import sparks1 from "@/public/images/54sp.png";
+import sparks2 from "@/public/images/54sp1.png";
+import sparks3 from "@/public/images/54sp2.png";
+import sparks4 from "@/public/images/spa.png";
 
 export default function Home() {
   return (
@@ -306,6 +306,136 @@ export default function Home() {
               </div>
             </Link>
           </div>
+          <section className="w-full my-4 py-6">
+            <div>
+              <div className="flex flex-col md:flex-row items-center gap-6 mb-4">
+
+                <div className="flex-1">
+                  <h2 className="text-3xl font-header text-prigreentext mb-4">54 Sparks: Africa&apos;s Clean Cooking Transition</h2>
+                  <p className="text-gray-700 leading-relaxed">
+                    Join our bi-weekly webinar series exploring the evolving landscape of clean cooking technologies across Africa.
+                    We aim to promote understanding, showcase innovations, and foster collaboration among stakeholders in clean cooking initiatives.
+                  </p>
+                  <br />
+                  {/* <section className="grid grid-cols-2 gap-4"> 
+                      <div className="rounded-lg">
+                        <Image src={sparks1}  alt="benefit 1" />
+                      </div>
+                      <div className="rounded-lg">
+                        <Image src={sparks2}  alt="benefit 1" />
+                      </div>
+                      <div className="rounded-lg">
+                        <Image src={sparks3}  alt="benefit 1" />
+                      </div>
+                      <div className="rounded-lg">
+                        <Image src={sparks4}  alt="benefit 1" />
+                      </div>
+
+                    </section> */}
+                </div>
+                <div className="flex-shrink-0">
+                  <Link href="https://bit.ly/cookcleanadvocate" target="_blank">
+                    <CustomButton variant="secondary" className="whitespace-nowrap">
+                      Join Next Webinar
+                    </CustomButton>
+                  </Link>
+                  
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div className="space-y-6">
+                  <div className="bg-white rounded-xl p-8 shadow-md border border-gray-100">
+                    <h3 className="font-header text-2xl text-prigreentext mb-6">Become a Clean Cook Advocate</h3>
+                    <ul className="space-y-6">
+                      {[
+                        {
+                          title: "Understand SDG7",
+                          description: "Demonstrate a basic understanding of Sustainable Development Goal 7"
+                        },
+                        {
+                          title: "Show Commitment",
+                          description: "Be passionate about clean cooking and committed to advocating for sustainable solutions"
+                        },
+                        {
+                          title: "Attend Webinars",
+                          description: "Participate in at least 5 editions of the 54 Sparks webinar series"
+                        },
+                        {
+                          title: "Complete Training",
+                          description: "Successfully finish the Clean Cook Advocate Training Module"
+                        },
+                        {
+                          title: "Take Action",
+                          description: "Organize one clean cooking awareness activity in your community"
+                        }
+                      ].map((item, index) => (
+                        <li key={index} className="flex items-start gap-4">
+                          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-prigreentext text-white font-bold flex items-center justify-center">
+                            {index + 1}
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-1">{item.title}</h4>
+                            <p className="text-gray-600">{item.description}</p>
+                          </div>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="space-y-6">
+                  <div className="bg-green-900 text-white rounded-xl p-8 shadow-lg">
+                    <h3 className="font-header text-2xl mb-6">Benefits of Joining</h3>
+                    
+                    <div className="space-y-6">
+                      {[
+                        {
+                          title: "Expert Mentorship",
+                          description: "Get guidance from industry leaders and experienced practitioners"
+                        },
+                        {
+                          title: "Network Growth",
+                          description: "Connect with like-minded advocates and industry professionals"
+                        },
+                        {
+                          title: "Funding Access",
+                          description: "Discover and access funding opportunities in the clean cooking sector"
+                        },
+                        {
+                          title: "Knowledge Hub",
+                          description: "Access exclusive resources and learning materials"
+                        }
+                      ].map((benefit, index) => (
+                        <div key={index} className="flex items-start gap-4">
+                          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-white text-redbg flex items-center justify-center">
+                            <ArrowUpRight size={24} />
+                          </div>
+                          <div>
+                            <h4 className="font-bold mb-1">{benefit.title}</h4>
+                            <p className="text-gray-100">{benefit.description}</p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* <div className="bg-[#E8F5E9] rounded-xl p-8">
+                    <h3 className="font-header text-xl text-prigreentext mb-4">Ready to Make an Impact?</h3>
+                    <p className="text-gray-700 mb-6">Join our community of advocates working towards a cleaner, more sustainable Africa.</p>
+                    <Link href="https://bit.ly/cookcleanadvocate" target="_blank" className="block">
+                      <CustomButton variant="primary" className="w-full py-4 text-lg">
+                        Register as an Advocate
+                      </CustomButton>
+                    </Link>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+          </section>
+          <hr />
+          <br />
+          <br className="hidden lg:block" />
 
           <div className="flex lg:flex-row flex-col justify-between ">
             <div className="w-full lg:w-[48%] mt-0 md:mt-4 order-2 lg:order-1">
@@ -457,133 +587,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <section className="w-full mt-8 bg-gradient-to-br from-white to-cardbg rounded-2xl p-8">
-            <div className="max-w-7xl mx-auto">
-              <div className="flex flex-col md:flex-row items-center gap-6 mb-8">
-
-                <div className="flex-1">
-                  <h2 className="text-3xl font-header text-prigreentext mb-4">54 Sparks: Africa&apos;s Clean Cooking Transition</h2>
-                  <p className="text-gray-700 leading-relaxed">
-                    Join our bi-weekly webinar series exploring the evolving landscape of clean cooking technologies across Africa.
-                    We aim to promote understanding, showcase innovations, and foster collaboration among stakeholders in clean cooking initiatives.
-                  </p>
-                  <br />
-                  <section className="grid grid-cols-2 gap-4"> 
-                      <div className="rounded-lg">
-                        <Image src='/54sp.png' width={100} height={100} alt="benefit 1" />
-                      </div>
-                      <div className="rounded-lg">
-                        <Image src='/54sp1.png' width={100} height={100} alt="benefit 1" />
-                      </div>
-                      <div className="rounded-lg">
-                        <Image src='/54sp2.png' width={100} height={100} alt="benefit 1" />
-                      </div>
-                      <div className="rounded-lg">
-                        <Image src='/spa.png' width={100} height={100} alt="benefit 1" />
-                      </div>
-
-                    </section>
-                </div>
-                <div className="flex-shrink-0">
-                  <Link href="https://bit.ly/cookcleanadvocate" target="_blank">
-                    <CustomButton variant="secondary" className="whitespace-nowrap">
-                      Join Next Webinar
-                    </CustomButton>
-                  </Link>
-                  
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                <div className="space-y-6">
-                  <div className="bg-white rounded-xl p-8 shadow-md border border-gray-100">
-                    <h3 className="font-header text-2xl text-prigreentext mb-6">Become a Clean Cook Advocate</h3>
-                    <ul className="space-y-6">
-                      {[
-                        {
-                          title: "Understand SDG7",
-                          description: "Demonstrate a basic understanding of Sustainable Development Goal 7"
-                        },
-                        {
-                          title: "Show Commitment",
-                          description: "Be passionate about clean cooking and committed to advocating for sustainable solutions"
-                        },
-                        {
-                          title: "Attend Webinars",
-                          description: "Participate in at least 5 editions of the 54 Sparks webinar series"
-                        },
-                        {
-                          title: "Complete Training",
-                          description: "Successfully finish the Clean Cook Advocate Training Module"
-                        },
-                        {
-                          title: "Take Action",
-                          description: "Organize one clean cooking awareness activity in your community"
-                        }
-                      ].map((item, index) => (
-                        <li key={index} className="flex items-start gap-4">
-                          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-prigreentext text-white font-bold flex items-center justify-center">
-                            {index + 1}
-                          </div>
-                          <div>
-                            <h4 className="font-bold text-gray-900 mb-1">{item.title}</h4>
-                            <p className="text-gray-600">{item.description}</p>
-                          </div>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-
-                <div className="space-y-6">
-                  <div className="bg-green-900 text-white rounded-xl p-8 shadow-lg">
-                    <h3 className="font-header text-2xl mb-6">Benefits of Joining</h3>
-                    
-                    <div className="space-y-6">
-                      {[
-                        {
-                          title: "Expert Mentorship",
-                          description: "Get guidance from industry leaders and experienced practitioners"
-                        },
-                        {
-                          title: "Network Growth",
-                          description: "Connect with like-minded advocates and industry professionals"
-                        },
-                        {
-                          title: "Funding Access",
-                          description: "Discover and access funding opportunities in the clean cooking sector"
-                        },
-                        {
-                          title: "Knowledge Hub",
-                          description: "Access exclusive resources and learning materials"
-                        }
-                      ].map((benefit, index) => (
-                        <div key={index} className="flex items-start gap-4">
-                          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-white text-redbg flex items-center justify-center">
-                            <ArrowUpRight size={24} />
-                          </div>
-                          <div>
-                            <h4 className="font-bold mb-1">{benefit.title}</h4>
-                            <p className="text-gray-100">{benefit.description}</p>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* <div className="bg-[#E8F5E9] rounded-xl p-8">
-                    <h3 className="font-header text-xl text-prigreentext mb-4">Ready to Make an Impact?</h3>
-                    <p className="text-gray-700 mb-6">Join our community of advocates working towards a cleaner, more sustainable Africa.</p>
-                    <Link href="https://bit.ly/cookcleanadvocate" target="_blank" className="block">
-                      <CustomButton variant="primary" className="w-full py-4 text-lg">
-                        Register as an Advocate
-                      </CustomButton>
-                    </Link>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-          </section>
+       
 
           <br />
 
