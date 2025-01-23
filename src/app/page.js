@@ -335,11 +335,16 @@ export default function Home() {
                     </section> */}
                 </div>
                 <div className="flex-shrink-0">
-                  <Link href="https://bit.ly/cookcleanadvocate" target="_blank">
+                  <Link href="https://bit.ly/54-sparks" target="_blank">
                     <CustomButton variant="secondary" className="whitespace-nowrap">
                       Join Next Webinar
                     </CustomButton>
                   </Link>
+                  {/* <Link href="https://bit.ly/cookcleanadvocate" target="_blank">
+                    <CustomButton variant="secondary" className="whitespace-nowrap">
+                      Join Next Webinar
+                    </CustomButton>
+                  </Link> */}
                   
                 </div>
               </div>
