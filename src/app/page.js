@@ -347,7 +347,7 @@ export default function Home() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                 <div className="space-y-6">
                   <div className="bg-white rounded-xl p-8 shadow-md border border-gray-100">
-                    <h3 className="font-header text-2xl text-prigreentext mb-6">Become a Clean Cook Advocate</h3>
+                    <h3 className="font-header text-2xl text-prigreentext mb-6">Become a Cook Clean Advocate</h3>
                     <ul className="space-y-6">
                       {[
                         {
