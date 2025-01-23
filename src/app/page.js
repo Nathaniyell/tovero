@@ -312,7 +312,7 @@ export default function Home() {
 
                 <div className="flex-1">
                   
-                  <h2 className="text-3xl font-header text-prigreentext mb-4">54 Sparks: Africa&apos;s Clean Cooking Transition Webinar</h2>
+                  <h2 className="text-3xl font-header text-prigreentext">54 Sparks: Africa&apos;s Clean Cooking Transition Webinar</h2>
                   <p className="text-gray-700 leading-relaxed text-justify md:w-3/4">
                     Join our bi-weekly webinar series exploring the evolving landscape of clean cooking transition across Africa.
                     We aim to promote understanding, showcase innovations, and foster collaboration among stakeholders in clean cooking initiatives.
@@ -340,11 +340,7 @@ export default function Home() {
                       Join Next Webinar
                     </CustomButton>
                   </Link>
-                  {/* <Link href="https://bit.ly/cookcleanadvocate" target="_blank">
-                    <CustomButton variant="secondary" className="whitespace-nowrap">
-                      Join Next Webinar
-                    </CustomButton>
-                  </Link> */}
+                
                   
                 </div>
               </div>
@@ -387,6 +383,11 @@ export default function Home() {
                         </li>
                       ))}
                     </ul>
+                    {/* <Link href="https://bit.ly/cookcleanadvocate" target="_blank" className="mt-2">
+                    <CustomButton variant="secondary" className="whitespace-nowrap">
+                      Become a cook clean advocate
+                    </CustomButton>
+                  </Link> */}
                   </div>
                 </div>
 
