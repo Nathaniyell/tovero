@@ -369,7 +369,7 @@ export default function Home() {
                         },
                         {
                           title: "Complete Training",
-                          description: "Successfully finish the Clean Cook Advocate Training Module"
+                          description: "Successfully finish the Clean Cooking Advocate Training Module"
                         },
                         {
                           title: "Take Action",
