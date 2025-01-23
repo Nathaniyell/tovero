@@ -314,7 +314,7 @@ export default function Home() {
                   
                   <h2 className="text-3xl font-header text-prigreentext mb-4">54 Sparks: Africa&apos;s Clean Cooking Transition Webinar</h2>
                   <p className="text-gray-700 leading-relaxed text-justify md:w-3/4">
-                    Join our bi-weekly webinar series exploring the evolving landscape of clean cooking technologies across Africa.
+                    Join our bi-weekly webinar series exploring the evolving landscape of clean cooking transition across Africa.
                     We aim to promote understanding, showcase innovations, and foster collaboration among stakeholders in clean cooking initiatives.
                   </p>
                   <br />
