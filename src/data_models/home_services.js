@@ -42,6 +42,12 @@ const home_services = [
         title: "Energy Advocacy & Education",
         description: "Programs and initiatives promoting energy literacy and sustainable practices."
     },
+    {
+        id: 7,
+        image: serv6,
+        title: "PURE Technology Solutions",
+        description: "Design and construction of PURE(Productive Use of Renewable Energy) systems that are efficient and sustainable."
+    },
 ]
 
 export default home_services;
