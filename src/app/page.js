@@ -218,7 +218,8 @@ export default function Home() {
               <Image
                 src={card.image}
                 alt="services image 1"
-                className={`hidden md:block ${card.id === 7 || card.id === 8 && "w-[30%] h-[100%] rounded"}`}
+               className={`hidden md:block ${((card.id === 7 || card.id === 8) && "w-[30%] h-[100%] rounded")}`}
+
               />
               <div className="text-center md:text-left">
                 <h1 className="mb-2 font-header text-xl">{card.title}</h1>

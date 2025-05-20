@@ -72,7 +72,7 @@ function MobileNavBar({ closeNav }) {
             }}
             className="mb-4"
           >
-            <p>MEnergy Advisory</p>
+            <p>Energy Advisory</p>
           </motion.div>
             
           <motion.div
@@ -141,7 +141,7 @@ function MobileNavBar({ closeNav }) {
           >
             <p>E-waste Disposal & Recycling</p>
           </motion.div>
-          <motion.div
+          {/* <motion.div
             whileTap={{ backgroundColor: "#F1F2F3" }}
             onClick={() => {
               isActive(7);
@@ -151,7 +151,7 @@ function MobileNavBar({ closeNav }) {
             className="mb-4"
           >
             <p> E-Waste Disposal & Recycling</p>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
 
