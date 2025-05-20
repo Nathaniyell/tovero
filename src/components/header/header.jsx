@@ -151,8 +151,19 @@ function Header() {
                     }}
                     className="w-fit group py-2 h-10"
                   >
-                    E-wasete Disposal & Recycling
-                                         <div className="group-hover:block hidden w-full h-1 bg-prigreentext"></div>
+                    PURE Technology Solutions
+                    <div className="group-hover:block hidden w-full h-1 bg-prigreentext"></div>
+                  </div>
+                  <div
+                    onClick={() => {
+                      isActive(7);
+                      router.push("/services");
+                      // handleNav(5);
+                    }}
+                    className="w-fit group py-2 h-10"
+                  >
+                    E-waste Disposal & Recycling
+                    <div className="group-hover:block hidden w-full h-1 bg-prigreentext"></div>
                   </div>
                 </div>
               }
