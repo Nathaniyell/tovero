@@ -48,6 +48,12 @@ const home_services = [
         title: "PURE Technology Solutions",
         description: "Design and construction of PURE(Productive Use of Renewable Energy) systems that are efficient and sustainable."
     },
+    {
+        id: 7,
+        image: serv6,
+        title: "E-WASTE DISPOSAL & RECYCLING",
+        description: `Expert in handling all kinds of electronic waste disposal and recycling`,
+    },
 ]
 
 export default home_services;
