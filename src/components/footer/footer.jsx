@@ -87,6 +87,12 @@ function Footer() {
           <Link href="/services">
             <p className="mb-2">Energy Education & Advocacy</p>
           </Link>
+          <Link href="/services">
+            <p className="mb-2"> PURE Technology Solutions</p>
+          </Link>
+          <Link href="/services">
+            <p className="mb-2"> E-Waste Disposal & Recycling</p>
+          </Link>
         </div>
 
         <div className="flex flex-col items-center md:items-start">
