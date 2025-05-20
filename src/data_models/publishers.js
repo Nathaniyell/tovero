@@ -82,6 +82,35 @@ export const publisherInfo = [
   },
 ];
 
+export const journalPublications = [
+  {
+    id: 1,
+    icon: bookIcon,
+    text: "AICCEES 2023 BOA - First Edition",
+    link: "https://drive.google.com/uc?export=download&id=1X0a2g3v4x5qk7r6J8G9j7f3Z5Qe4Yb0E",
+  },
+  {
+    id: 2,
+    icon: bookIcon,
+    text: "AICCEES 2024 BOA - Second Edition",
+    link: "https://drive.google.com/uc?export=download&id=1X0a2g3v4x5qk7r6J8G9j7f3Z5Qe4Yb0E",
+  },
+];
+export const sparksReport = [
+  {
+    id: 1,
+    icon: bookIcon,
+    text: "54 Sparks Report - First Edition",
+    link: "https://drive.google.com/uc?export=download&id=1X0a2g3v4x5qk7r6J8G9j7f3Z5Qe4Yb0E",
+  },
+  {
+    id: 2,
+    icon: bookIcon,
+    text: "54 Sparks Report - Second Edition",
+    link: "https://drive.google.com/uc?export=download&id=1X0a2g3v4x5qk7r6J8G9j7f3Z5Qe4Yb0E",
+  },
+];
+
 export const publisherMore = [
   {
     id: 1,
