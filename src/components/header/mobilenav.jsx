@@ -63,7 +63,7 @@ function MobileNavBar({ closeNav }) {
           >
             <p>Energy Planning & Audit</p>
           </motion.div>
-          <motion.div
+            <motion.div
             whileTap={{ backgroundColor: "#F1F2F3" }}
             onClick={() => {
               isActive(1);
@@ -72,8 +72,9 @@ function MobileNavBar({ closeNav }) {
             }}
             className="mb-4"
           >
-            <p>Energy Advisory</p>
+            <p>MEnergy Advisory</p>
           </motion.div>
+            
           <motion.div
             whileTap={{ backgroundColor: "#F1F2F3" }}
             onClick={() => {
@@ -85,7 +86,7 @@ function MobileNavBar({ closeNav }) {
           >
             <p>Mini-grid Design</p>
           </motion.div>
-          <motion.div
+        <motion.div
             whileTap={{ backgroundColor: "#F1F2F3" }}
             onClick={() => {
               isActive(3);
@@ -116,7 +117,40 @@ function MobileNavBar({ closeNav }) {
             }}
             className="mb-4"
           >
-            <p>Energy Education & Advocacy</p>
+            <p> Energy Education & Advocacy</p>
+          </motion.div>
+          <motion.div
+            whileTap={{ backgroundColor: "#F1F2F3" }}
+            onClick={() => {
+              isActive(5);
+              router.push("/services");
+              closeNav();
+            }}
+            className="mb-4"
+          >
+            <p>PURE Technology Solutions</p>
+          </motion.div>
+          <motion.div
+            whileTap={{ backgroundColor: "#F1F2F3" }}
+            onClick={() => {
+              isActive(6);
+              router.push("/services");
+              closeNav();
+            }}
+            className="mb-4"
+          >
+            <p>E-waste Disposal & Recycling</p>
+          </motion.div>
+          <motion.div
+            whileTap={{ backgroundColor: "#F1F2F3" }}
+            onClick={() => {
+              isActive(7);
+              router.push("/services");
+              closeNav();
+            }}
+            className="mb-4"
+          >
+            <p> E-Waste Disposal & Recycling</p>
           </motion.div>
         </div>
       </div>
