@@ -5,6 +5,7 @@ import img3 from "@/public/images/services/serv3.png";
 import img4 from "@/public/images/services/serv4.png";
 import img5 from "@/public/images/services/serv5.png";
 import img6 from "@/public/images/services/serv6.png";
+import img7 from "@/public/images/services/serv7.jpg"
 import { v4 as uuidv4 } from "uuid";
 
 const generateId = () => {
@@ -65,7 +66,7 @@ export const serviceInfo = [
   },
   {
     id: 7,
-    image: img6,
+    image: img7,
   title: "E-WASTE DISPOSAL & RECYCLING",
     description: `Tovero Energy Ltd is a leading expert in handling all kinds of electronic waste disposal and recycling`,
   },
