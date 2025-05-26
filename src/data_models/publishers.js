@@ -87,13 +87,13 @@ export const journalPublications = [
     id: 1,
     icon: bookIcon,
     text: "AICCEES 2023 BOA - First Edition",
-    link: "https://drive.google.com/uc?export=download&id=1X0a2g3v4x5qk7r6J8G9j7f3Z5Qe4Yb0E",
+    link: "https://drive.google.com/file/d/1MMfJK1vIlKukOAGoSKtHMvbH7nneunBQ/view?usp=drive_link",
   },
   {
     id: 2,
     icon: bookIcon,
     text: "AICCEES 2024 BOA - Second Edition",
-    link: "https://drive.google.com/uc?export=download&id=1X0a2g3v4x5qk7r6J8G9j7f3Z5Qe4Yb0E",
+    link: "https://drive.google.com/file/d/1gs3RtLhcSk-CTpB71bPBa1L7kf-ihGcf/view?usp=drive_link",
   },
 ];
 export const sparksReport = [
