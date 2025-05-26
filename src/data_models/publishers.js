@@ -101,13 +101,13 @@ export const sparksReport = [
     id: 1,
     icon: bookIcon,
     text: "54 Sparks Report - First Edition",
-    link: "https://drive.google.com/uc?export=download&id=1X0a2g3v4x5qk7r6J8G9j7f3Z5Qe4Yb0E",
+    link: "https://drive.google.com/file/d/1CHNP7QmzaZ_HDlVP3l5pnrreCicfvd3w/view?usp=drive_link",
   },
   {
     id: 2,
     icon: bookIcon,
-    text: "54 Sparks Report - Second Edition",
-    link: "https://drive.google.com/uc?export=download&id=1X0a2g3v4x5qk7r6J8G9j7f3Z5Qe4Yb0E",
+    text: "54 Sparks Report - Third Edition",
+    link: "https://drive.google.com/file/d/1osZoDUSeblbUO15RxnxvYDHW27lbY_aL/view?usp=drive_link",
   },
 ];
 
