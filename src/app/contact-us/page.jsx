@@ -43,7 +43,7 @@ function ContactUs() {
               <div className="flex items-center gap-2">
                 <FaPhoneAlt color="#ffffff" />
                 <div>
-                  <h1 className="">+234 813 3426 978</h1>
+                  <h1 className="">+234 803 764 1860</h1>
                   <p className="text-[12px]">Mon - Fri; 8AM - 5PM</p>
                 </div>
               </div>

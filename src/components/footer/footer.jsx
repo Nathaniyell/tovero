@@ -25,7 +25,7 @@ function Footer() {
               </div>
               <div>
                 <p className="text-[12px]">Phone number</p>
-                <p className="text-[12px]">+2348133426978</p>
+                <p className="text-[12px]">+2348037641860</p>
               </div>
             </div>
             <br />
@@ -87,6 +87,12 @@ function Footer() {
           <Link href="/services">
             <p className="mb-2">Energy Education & Advocacy</p>
           </Link>
+          <Link href="/services">
+            <p className="mb-2"> PURE Technology Solutions</p>
+          </Link>
+          <Link href="/services">
+            <p className="mb-2"> E-Waste Disposal & Recycling</p>
+          </Link>
         </div>
 
         <div className="flex flex-col items-center md:items-start">
@@ -97,7 +103,7 @@ function Footer() {
           <Link href="/publications">
             <p className="mb-2">Publications</p>
           </Link>
-          <Link href="/aiccees">
+          <Link href="https://aiccees.com" target="_blank">
             <p className="mb-2">AICCEES</p>
           </Link>
           {/* <Link href="/tovero">

@@ -142,6 +142,29 @@ function Header() {
                     Energy Education & Advocacy
                     <div className="group-hover:block hidden w-full h-1 bg-prigreentext"></div>
                   </div>
+
+                  <div
+                    onClick={() => {
+                      isActive(6);
+                      router.push("/services");
+                      // handleNav(5);
+                    }}
+                    className="w-fit group py-2 h-10"
+                  >
+                    PURE Technology Solutions
+                    <div className="group-hover:block hidden w-full h-1 bg-prigreentext"></div>
+                  </div>
+                  <div
+                    onClick={() => {
+                      isActive(7);
+                      router.push("/services");
+                      // handleNav(5);
+                    }}
+                    className="w-fit group py-2 h-10"
+                  >
+                    E-waste Disposal & Recycling
+                    <div className="group-hover:block hidden w-full h-1 bg-prigreentext"></div>
+                  </div>
                 </div>
               }
             </div>
@@ -160,7 +183,7 @@ function Header() {
                   className={`${showConDropdown ? "block" : "hidden"
                     } bg-white shadow-md pt-6 pb-12 px-6 absolute top-12 rounded-t-2xl `}
                 >
-                  <Link href="/aiccees">
+                  <Link href="https://aiccees.com" target="_blank">
                     <div className="w-fit group h-16">
                       Africa International Conference on Clean Energy and Energy
                       Storage (AICCEES){" "}

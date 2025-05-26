@@ -5,6 +5,8 @@ import img3 from "@/public/images/services/serv3.png";
 import img4 from "@/public/images/services/serv4.png";
 import img5 from "@/public/images/services/serv5.png";
 import img6 from "@/public/images/services/serv6.png";
+import img7 from "@/public/images/home/services7.jpg"
+import img8 from "@/public/images/services/serv7.jpg"
 import { v4 as uuidv4 } from "uuid";
 
 const generateId = () => {
@@ -18,6 +20,8 @@ export const serviceHeaders = [
   "CLEAN COOKING SOLUTIONS",
   "ENERGY SYSTEMS DESIGN & DEVELOPMENT",
   "ENERGY EDUCATION & ADVOCACY",
+  "PURE TECHNOLOGY SOLUTIONS",
+  "E-WASTE DISPOSAL & RECYCLING",
 ];
 
 export const serviceInfo = [
@@ -61,5 +65,18 @@ export const serviceInfo = [
     image: img6,
     title: "ENERGY EDUCATION & ADVOCACY",
     description: `Tovero Energy Ltd is a leading voice in the clean energy advocacy space through the flagship Tonipash Sustainable Energy Talk™ (TSET). The major objective of Tonipash Sustainable Energy Talk™ is to spark up behavioural change through monthly virtual renewable energy and climate change awareness and advocacy sessions.From the inception of Tonipash Sustainable Energy Talk™ (TSET) till date, 52 speakers from different parts of the world have featured on the advocacy and awareness event (65% of which were male and 35% female), and over 1,500 participants have been reached (90% of them youths). Visit our Youtube channel to see the various topics and discussions so far https://www.youtube.com/@toveroenergy3932/videos.This in addition to the annual Africa International Conference on Clean Energy and Energy Storage (AICCEES) provide a platform for exchange of ideas and updates on new and emerging trends in the industry.`,
+  },
+  {
+    id: 7,
+    image: img7,
+    title: "PURE Technology Solutions",
+    description: `Design and construction of PURE(Productive Use of Renewable Energy) systems that are efficient and sustainable.`,
+    
+  },
+  {
+    id: 8,
+    image: img8,
+    title: "E-WASTE DISPOSAL & RECYCLING",
+    description: `Tovero Energy Ltd is a leading expert in handling all kinds of electronic waste disposal and recycling`,
   },
 ];

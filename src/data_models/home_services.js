@@ -4,6 +4,8 @@ import serv3 from "@/public/images/home/services3.png"
 import serv4 from "@/public/images/home/services4.png"
 import serv5 from "@/public/images/home/services5.png"
 import serv6 from "@/public/images/home/services6.png"
+import serv7 from "@/public/images/home/services7.jpg"
+import serv8 from "@/public/images/services/serv7.jpg"
 
 const home_services = [
     {
@@ -41,6 +43,18 @@ const home_services = [
         image: serv6,
         title: "Energy Advocacy & Education",
         description: "Programs and initiatives promoting energy literacy and sustainable practices."
+    },
+    {
+        id: 7,
+        image: serv7,
+        title: "PURE Technology Solutions",
+        description: "Design and construction of PURE(Productive Use of Renewable Energy) systems that are efficient and sustainable."
+    },
+    {
+        id: 8,
+        image: serv8,
+        title: "E-WASTE DISPOSAL & RECYCLING",
+        description: `Expert in handling all kinds of electronic waste disposal and recycling`,
     },
 ]
 

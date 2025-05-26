@@ -17,6 +17,10 @@ import SponsorsCarousel from "../components/sponsors_carousel/carousel";
 import { FaLocationDot } from "react-icons/fa6";
 import microsoftLogo from "@/public/images/home/logos_microsoft-teams.png";
 import scientific from "@/public/images/home/Scientific_2.png";
+import sparks1 from "@/public/images/54sp.png";
+import sparks2 from "@/public/images/54sp1.png";
+import sparks3 from "@/public/images/54sp2.png";
+import sparks4 from "@/public/images/spa.png";
 
 export default function Home() {
   return (
@@ -46,7 +50,7 @@ export default function Home() {
             clean and sustainable.
           </p>
           <br />
-          <Link href="/aiccees">
+          <Link href="https://aiccees.com" target="_blank">
             <div className="flex justify-center md:justify-start">
               <CustomButton variant="primary">SEE EVENTS</CustomButton>
             </div>
@@ -125,7 +129,7 @@ export default function Home() {
                     To empower individuals, communities, and industries by
                     delivering tailored and innovative sustainable energy
                     solutions that drive positive environmental impact, economic
-                    growth, and social progress
+                    growth, and social equity
                   </p>
                 </div>
               </div>
@@ -136,7 +140,7 @@ export default function Home() {
                   </p>
 
                   <p className="ptag text-justify">
-                    Empowering Futures Through Sustainable Energy Solutions
+                    Empowering futures through innovative sustainable energy solutions
                   </p>
                 </div>
               </div>
@@ -151,7 +155,7 @@ export default function Home() {
                   To empower individuals, communities, and industries by
                   delivering tailored and innovative sustainable energy
                   solutions that drive positive environmental impact, economic
-                  growth, and social progress
+                  growth, and social equity
                 </p>
               </div>
               <div className="bg-cardbg text-center px-6 py-4">
@@ -159,8 +163,8 @@ export default function Home() {
                   OUR VISION
                 </p>
 
-                <p className="ptag ">
-                  Empowering Futures Through Sustainable Energy Solutions
+                <p className="ptag">
+                  Empowering futures through innovative sustainable energy solutions
                 </p>
               </div>
             </div>
@@ -214,7 +218,8 @@ export default function Home() {
               <Image
                 src={card.image}
                 alt="services image 1"
-                className="hidden md:block"
+               className={`hidden md:block ${((card.id === 7 || card.id === 8) && "w-[30%] h-[100%] rounded")}`}
+
               />
               <div className="text-center md:text-left">
                 <h1 className="mb-2 font-header text-xl">{card.title}</h1>
@@ -302,6 +307,143 @@ export default function Home() {
               </div>
             </Link>
           </div>
+          <section className="w-full px-2 md:px-0 my-4 py-6">
+            <div>
+              <div className="flex flex-col md:flex-row items-center md:items-start gap-2 md:gap-6 mb-4">
+
+                <div className="flex-1">
+                  
+                  <h2 className="text-3xl font-header text-prigreentext">54 Sparks: Africa&apos;s Clean Cooking Transition Webinar</h2>
+                  <p className="text-gray-700 leading-relaxed text-justify md:w-3/4">
+                    Join our bi-weekly webinar series exploring the evolving landscape of clean cooking transition across Africa.
+                    We aim to promote understanding, showcase innovations, and foster collaboration among stakeholders in clean cooking initiatives.
+                  </p>
+                  <br />
+                  {/* <section className="grid grid-cols-2 gap-4"> 
+                      <div className="rounded-lg">
+                        <Image src={sparks1}  alt="benefit 1" />
+                      </div>
+                      <div className="rounded-lg">
+                        <Image src={sparks2}  alt="benefit 1" />
+                      </div>
+                      <div className="rounded-lg">
+                        <Image src={sparks3}  alt="benefit 1" />
+                      </div>
+                      <div className="rounded-lg">
+                        <Image src={sparks4}  alt="benefit 1" />
+                      </div>
+
+                    </section> */}
+                </div>
+                <div className="flex-shrink-0">
+                  <Link href="https://bit.ly/54-sparks" target="_blank">
+                    <CustomButton variant="secondary" className="whitespace-nowrap">
+                      Join Next Webinar
+                    </CustomButton>
+                  </Link>
+                
+                  
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div className="space-y-6">
+                  <div className="bg-white rounded-xl p-8 shadow-md border border-gray-100">
+                    <h3 className="font-header text-2xl text-prigreentext mb-6">Become a Cook Clean Advocate</h3>
+                    <ul className="space-y-6">
+                      {[
+                        {
+                          title: "Understand SDG7",
+                          description: "Demonstrate a basic understanding of Sustainable Development Goal 7"
+                        },
+                        {
+                          title: "Show Commitment",
+                          description: "Be passionate about clean cooking and committed to advocating for sustainable solutions"
+                        },
+                        {
+                          title: "Attend Webinars",
+                          description: "Participate in at least 5 editions of the 54 Sparks webinar series"
+                        },
+                        {
+                          title: "Complete Training",
+                          description: "Successfully finish the Clean Cooking Advocate Training Module"
+                        },
+                        {
+                          title: "Take Action",
+                          description: "Organize one clean cooking awareness activity in your community"
+                        }
+                      ].map((item, index) => (
+                        <li key={index} className="flex items-start gap-4">
+                          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-prigreentext text-white font-bold flex items-center justify-center">
+                            {index + 1}
+                          </div>
+                          <div>
+                            <h4 className="font-bold text-gray-900 mb-1">{item.title}</h4>
+                            <p className="text-gray-600">{item.description}</p>
+                          </div>
+                        </li>
+                      ))}
+                    </ul>
+                    {/* <Link href="https://bit.ly/cookcleanadvocate" target="_blank" className="mt-2">
+                    <CustomButton variant="secondary" className="whitespace-nowrap">
+                      Become a cook clean advocate
+                    </CustomButton>
+                  </Link> */}
+                  </div>
+                </div>
+
+                <div className="space-y-6">
+                  <div className="bg-green-900 text-white rounded-xl p-8 shadow-lg">
+                    <h3 className="font-header text-2xl mb-6">Benefits of Joining</h3>
+                    
+                    <div className="space-y-6">
+                      {[
+                        {
+                          title: "Expert Mentorship",
+                          description: "Get guidance from industry leaders and experienced practitioners"
+                        },
+                        {
+                          title: "Network Growth",
+                          description: "Connect with like-minded advocates and industry professionals"
+                        },
+                        {
+                          title: "Funding Access",
+                          description: "Discover and access funding opportunities in the clean cooking sector"
+                        },
+                        {
+                          title: "Knowledge Hub",
+                          description: "Access exclusive resources and learning materials"
+                        }
+                      ].map((benefit, index) => (
+                        <div key={index} className="flex items-start gap-4">
+                          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-white text-redbg flex items-center justify-center">
+                            <ArrowUpRight size={24} />
+                          </div>
+                          <div>
+                            <h4 className="font-bold mb-1">{benefit.title}</h4>
+                            <p className="text-gray-100">{benefit.description}</p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* <div className="bg-[#E8F5E9] rounded-xl p-8">
+                    <h3 className="font-header text-xl text-prigreentext mb-4">Ready to Make an Impact?</h3>
+                    <p className="text-gray-700 mb-6">Join our community of advocates working towards a cleaner, more sustainable Africa.</p>
+                    <Link href="https://bit.ly/cookcleanadvocate" target="_blank" className="block">
+                      <CustomButton variant="primary" className="w-full py-4 text-lg">
+                        Register as an Advocate
+                      </CustomButton>
+                    </Link>
+                  </div> */}
+                </div>
+              </div>
+            </div>
+          </section>
+          <hr />
+          <br />
+          <br className="hidden lg:block" />
 
           <div className="flex lg:flex-row flex-col justify-between ">
             <div className="w-full lg:w-[48%] mt-0 md:mt-4 order-2 lg:order-1">
@@ -318,14 +460,14 @@ export default function Home() {
                   </p>
                   <div className="flex items-center gap-2 text-sm">
                     {" "}
-                    <CalendarDays /> 26th & 27th September 2024
+                    <CalendarDays /> 25th & 26th September 2025
                   </div>
                 </div>
               </div>
               <div className="py-3">
                 <p className="text-ltgreentext font-bold">
                   Africa International Conference on Clean Energy & Energy
-                  Storage (AICCEES), 2024
+                  Storage (AICCEES), 2025
                 </p>
                 <p>
                   In order to achieve the Sustainable Development Goals in
@@ -347,11 +489,13 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <Link href="https://forms.office.com/r/3Hxp8z38uA">
+              <Link href="https://aiccees.com" target="_blank">
                 <CustomButton variant="primary" className="w-full md:w-fit mt-4 md:mt-0">
-                  Register
+                  Visit Website
                 </CustomButton>
               </Link>
+
+
             </div>
             <div className="w-full md:w-[48%] mt-4 order-1 lg:order-2">
               <div className="block md:hidden">
@@ -367,14 +511,14 @@ export default function Home() {
                   </p>
                   <div className="flex items-center gap-2 text-sm">
                     {" "}
-                    <CalendarDays /> 26th & 27th September 2024
+                    <CalendarDays /> 25th & 26th September 2025
                   </div>
                 </div>
               </div>
               <div className="flex justify-between pt-6 md:pt-0 pb-6 border-b border-gray-400">
                 <div className="w-[30%] md:w-[20%] bg-prigreentext flex items-center justify-center rounded-md">
                   <p className="text-white font-bold text-center">
-                    FEBRUARY 1,2024
+                    JANUARY 1,2025
                   </p>
                 </div>
                 <div className="w-[65%] md:w-[70%]">
@@ -401,7 +545,7 @@ export default function Home() {
               <div className="flex justify-between py-6 border-b border-gray-400">
                 <div className="w-[30%] md:w-[20%] bg-prigreentext flex items-center justify-center rounded-md">
                   <p className="text-white font-bold text-center">
-                    AUGUST 31,2024
+                    MAY 31,2025
                   </p>
                 </div>
                 <div className="w-[65%] md:w-[70%]">
@@ -428,9 +572,9 @@ export default function Home() {
               <div className="flex justify-between py-6">
                 <div className="w-[30%] md:w-[20%] bg-prigreentext flex items-center justify-center rounded-md">
                   <p className="text-white font-bold text-center">
-                    SEPTEMBER <br /> 26 & 27,
+                    SEPTEMBER <br /> 25 & 26,
                     <br />
-                    2024
+                    2025
                   </p>
                 </div>
                 <div className="w-[65%] md:w-[70%]">
@@ -451,60 +595,11 @@ export default function Home() {
               </div>
             </div>
           </div>
+       
 
           <br />
 
-          {/* <div className="w-full lg:w-[35%] gap-x-4 gap-y-6 bg-cardbg p-1">
-            <div className="">
-              <div className="flex justify-center ">
-                <Image src={aicess} alt="aicess image" />
-              </div>
 
-              <br />
-              <div className="bg-white shadow p-4">
-                <p className="text-redtext text-sm">AICCEES 2024</p>
-                <p className="text-ltgreentext text-lg font-bold">
-                  Africa International Conference on Clean Energy & Energy
-                  Storage
-                </p>
-                <br />
-                <div className="flex justify-between items-center bg-cardbg rounded-full w-full h-12 p-3 mb-2">
-                  <div className="w-[60%] flex items-center gap-1">
-                    
-                    <Image src={red} alt="" className="w-3" />
-                    <p className="text-sm">Abstract/Full Paper Submission</p>
-                  </div>
-
-                  <p className="font-bold text-sm">Feb. 1st, 2024</p>
-                </div>
-                <div className="flex justify-between items-center bg-cardbg rounded-full w-full h-12 p-3 mb-2">
-                  <div className="w-[60%] flex  items-center gap-1">
-                    
-                    <Image src={amber} alt="" className="w-4" />
-                    <p className="text-sm">
-                      Abstract/Full Paper Submission Deadline
-                    </p>
-                  </div>
-
-                  <p className="font-bold text-sm">Jul. 31st, 2024</p>
-                </div>
-                <div className="flex justify-between items-center bg-cardbg rounded-full w-full h-12 p-3 mb-2">
-                  <div className="w-[30%] flex  items-center gap-1">
-                    
-                    <Image src={green} alt="" className="w-3" />
-                    <p className="text-sm">Conference </p>
-                  </div>
-
-                  <p className="font-bold text-sm">Sept. 26th & 27th, 2024</p>
-                </div>
-                <br />
-                <Link href="https://forms.office.com/r/3Hxp8z38uA">
-                  <CustomButton variant="secondary">Register</CustomButton>
-                </Link>
-              </div>
-            </div>
-            
-          </div> */}
         </motion.div>
         <br />
         <br />
