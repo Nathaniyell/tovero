@@ -53,7 +53,7 @@ const home_services = [
     {
         id: 8,
         image: serv8,
-        title: "E-WASTE DISPOSAL & RECYCLING",
+        title: "E-Waste Disposal & Recycling",
         description: `Expert in handling all kinds of electronic waste disposal and recycling`,
     },
 ]
