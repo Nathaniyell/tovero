@@ -69,7 +69,7 @@ export const serviceInfo = [
   {
     id: 7,
     image: img7,
-    title: "PURE Technology Solutions",
+    title: "PURE TECHNOLOGY SOLUTIONS",
     description: `Design and construction of PURE(Productive Use of Renewable Energy) systems that are efficient and sustainable.`,
     
   },
