@@ -109,6 +109,24 @@ export const sparksReport = [
     text: "54 Sparks Report - Third Edition",
     link: "https://drive.google.com/file/d/1osZoDUSeblbUO15RxnxvYDHW27lbY_aL/view?usp=drive_link",
   },
+  {
+    id: 5,
+    icon: bookIcon,
+    text: "54 Sparks Report - Fifth Edition",
+    link: "https://drive.google.com/file/d/1-yMpiIuSzho5VPL8PjgPwnQzFM1j6R1y/view?usp=drive_link",
+  },
+  {
+    id: 6,
+    icon: bookIcon,
+    text: "54 Sparks Report - Sixth Edition",
+    link: "https://drive.google.com/file/d/1sQ1eUw4ZFlpUWuHDGdcgFzCmf0-2VEPn/view?usp=drive_link",
+  },
+  {
+    id: 7,
+    icon: bookIcon,
+    text: "54 Sparks Report - Seventh Edition",
+    link: "https://drive.google.com/file/d/1ufZmtgG8mEeM1_lwzhaN_IDzbhhKRKQo/view?usp=drive_link",
+  },
 ];
 
 export const publisherMore = [
